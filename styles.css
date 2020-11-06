@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+iframe {
+  border-radius: 20px;
+  border: none;
+  height: 615px;
+  width: 416px;
+  background-color: white;
+  transform: scale(0);
+  transition: 300ms ease-in;
+  position: absolute;
+  bottom: 35px;
+  right: 115px;
+}
+
+#bot-open-img img {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #3c0998;
+  padding: 15px;
+  cursor: pointer;
+}
+
+iframe.active {
+  transform: scale(1);
+}
