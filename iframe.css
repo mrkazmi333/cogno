@@ -19,9 +19,6 @@
   left: 0px;
   top: -1px;
   background: linear-gradient(123.75deg, #f5821f 1.87%, #ff5c00 120.46%);
-  /* transition: 200ms ease-in-out; */
-  /* animation-name: open; */
-  /* animation-duration: 1s; */
 }
 #upper-info-container {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -32,9 +29,12 @@
   top: 19px;
   transition: all ease;
   transition-duration: 1s;
+  opacity: 0;
   animation-name: open;
   animation-duration: 1s;
+  animation-delay: 2s;
   animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
 }
 
 #upper-info-container h3 {
@@ -140,18 +140,6 @@
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
 }
-
-/* #question-down {
-  position: absolute;
-  left: 58.37%;
-  right: 40.98%;
-  top: 41.27%;
-  bottom: 58.26%;
-  background: #ff7600;
-  width: 2.71px;
-  height: 2.71px;
-  border-radius: 50%;
-} */
 
 #question-list {
   list-style: none;
